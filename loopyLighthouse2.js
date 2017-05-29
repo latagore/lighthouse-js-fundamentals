@@ -8,6 +8,6 @@ function loopyLighthouse(range, multiples, words) {
       result += words[1];
     }
     
-    console.log(result || i);
+    console.log(result === "" ? i : result);
   }
 }
